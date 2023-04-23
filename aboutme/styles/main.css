@@ -1,0 +1,28 @@
+body{
+    background-color: lightgrey;
+    width: 80%;
+    padding: 80px;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 80%;
+}
+
+.row{
+    display: flex;
+}
+.column{
+    width: 50%;
+}
+
+.flex-center{
+    padding-top: 60px;
+}
