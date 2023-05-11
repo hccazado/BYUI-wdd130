@@ -1,0 +1,40 @@
+body {
+    background-color:palevioletred;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+}
+h1, p{
+    color: white;
+}
+h1:hover {
+    color: black
+}
+
+img{
+    max-width: 40%;
+}
+ol{
+    margin: 20px auto;
+    display: block;
+    text-align: left;
+    color: black;
+}
+li{
+    list-style-position: inside;
+}
+
+#quote{
+    font-size: 1.5em;
+    max-width: 60%;
+    margin: 20px auto;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.bold{
+    font-weight: bold;
+}
