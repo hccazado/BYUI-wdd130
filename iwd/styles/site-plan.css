@@ -6,9 +6,9 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #363432   ;
-  --secondary-color: #196774 ;
-  --accent1-color: #FCFAFA;
-  --accent2-color: #FE7F2D;
+  --secondary-color: #EBEBEB ;
+  --accent1-color: #f28f3b;
+  --accent2-color: #28afb0;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'PT Sans', sans-serif;
@@ -16,14 +16,14 @@ Fonts are separated by a | */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #363432;  /* headlines on a white background */ 
-  --headline-color-on-color: #FCFAFA; /* headlines on a colored background */ 
+  --headline-color-on-color: #363432; /* headlines on a colored background */ 
   --paragraph-color-on-white: #363432; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #FCFAFA; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #FCFAFA;
-  --nav-background-color: #196774;
+  --paragraph-color-on-color: #363432; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #28afb0  ;
+  --nav-link-color: #363432;
+  --nav-background-color: #EBEBEB;
   --nav-hover-link-color: #363432;
-  --nav-hover-background-color: #FE7F2D;
+  --nav-hover-background-color: #f28f3b;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
