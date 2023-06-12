@@ -352,10 +352,14 @@ footer .social img{
         display: block;
     }
 
+    .rivers-article{
+        padding: 5px;
+    }
+
     .rivers-hero{
         display: block;
         margin-top: 0;
-        width: 100%;
+        height: auto;
     }
 
     .rivers-article img{
@@ -363,10 +367,6 @@ footer .social img{
         margin-bottom: 10px;
     }
 
-    .rivers-article {
-        padding: 10px;
-        width: 100vw;
-    }
     .rivers-article div{
         padding: 5px;
     }
