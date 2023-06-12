@@ -261,8 +261,7 @@ footer .social img{
     margin: 100px 0;   
 }
 
-.rivers-article section{
-    
+.rivers-article section{ 
     padding: 20px;
     grid-column: 1/7;
     grid-row: 2/5;
