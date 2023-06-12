@@ -359,12 +359,13 @@ footer .social img{
     }
 
     .rivers-article img{
-        display: block;
         width:90%;
+        margin-bottom: 10px;
     }
 
     .rivers-article {
         padding: 10px;
+        width: 100vw;
     }
     .rivers-article div{
         padding: 5px;
