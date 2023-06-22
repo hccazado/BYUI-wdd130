@@ -70,6 +70,28 @@ h1, h2, h3, h4, h5, h6{
   margin: 15px auto;
 }
 
+@keyframes display {
+  0% {
+    transform: translateX(15px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  80% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  95% {
+    transform: translateX(-15px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-15px);
+    opacity: 0;
+  }
+}
 /*
 .tool:nth-child(2) {
     animation-delay: 10s;
@@ -82,25 +104,4 @@ h1, h2, h3, h4, h5, h6{
 }
 }*/
 
-@keyframes display {
-    0% {
-      transform: translateX(15px);
-      opacity: 0;
-    }
-    10% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    80% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    95% {
-      transform: translateX(-15px);
-      opacity: 0.5;
-    }
-    100% {
-      transform: translateX(-15px);
-      opacity: 0;
-    }
-  }
+/*End of carousel style in webdesign page*/
