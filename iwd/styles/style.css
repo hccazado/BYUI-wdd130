@@ -261,3 +261,66 @@ footer .links > a:hover{
 }
 
 /*----------------------------------------------------*/
+@media screen and (max-width:900px) {
+  #container{
+    width: 100vw;
+  }
+  header{
+    display: inline-grid;
+    grid-template-columns: 150px 1fr;
+  }
+  header nav{
+    flex-direction: column;
+  }
+  header nav a{
+    padding: 10px;
+  }
+  .logo_link{
+    align-self: center;
+  }
+  .hero{
+    margin-top: 0;
+  }
+  .hero_msg{
+    grid-column: 2/9;
+    grid-row: 3/9;
+  }
+  .hero_msg h1, .hero_msg h2{
+    color:#fff;
+    text-shadow: none;
+    margin-top: 15px;
+  }
+  .background{
+    display: none;
+  }
+  section{
+    flex-direction: column;
+  }
+  .section-media{
+    width: 100%;
+  }
+  .section-info{
+    width: 90%;
+  }
+
+  footer{
+    display: block;
+    padding: 10px;
+    height: 250px;
+  }
+  footer .about > p{
+  padding-top: 0;
+  margin-top: 15px;
+  font-size: 1.1em;
+  }
+  footer .links{
+    margin: auto 30px;
+  }
+  footer .links a{
+    text-decoration: underline;
+  }
+  footer .social-media{
+    text-align: center;
+    margin: 30px auto;
+  }
+}
