@@ -10,7 +10,7 @@
   --paragraph-font: 'Maitree', serif;
 
 }
-body{
+body, label, form, input, textarea, button{
   margin:0;
   padding: 0;
   font-family: var(--paragraph-font);
@@ -166,7 +166,6 @@ footer{
   height: 100px;
   justify-content: space-around;
   padding-top: 10px;
-  margin-bottom: 0;
 }
 
 footer .about >h4{
@@ -322,6 +321,63 @@ footer .links > a:hover{
   }
 }
 
+/*------------------------------------------------------*/
+/*----------------style for contactUs page--------------*/
+.main-contact{
+  height: 100%;
+}
+#contact-form{
+  margin: 100px auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+}
+#contact-form ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#contact-form li + li{
+  padding-top: 20px;
+}
+#contact-form label{
+  display: inline-block;
+  font-size: 1.1em;
+  width: 85px;
+  text-align: right;
+} 
+#contact-form input, #contact-form textarea{
+  width:300px;
+}
+#contact-form input:focus, #contact-form textarea:focus{
+  border:1px solid black;
+}
+#contact-form input{
+  font-size: 1.1em;
+  height: 1.5em;
+}
+#contact-form textarea{
+  font-size: 1.1em;
+  height: 6em;
+  vertical-align: top;
+}
+#contact-form .form-button{
+  text-align: right;
+}
+#contact-form .form-button button{
+  font-size: 1.1em;
+  padding: 5px;
+  margin-right: 10px;
+}
+#submitted{
+  border: 1px solid #0a0;
+  color: #051;
+  display: none;
+  margin: 20px auto;
+  padding: 5px;
+  text-align: center;
+  width: 90vw;
+}
 /*----------------------------------------------------*/
 @media screen and (max-width:900px) {
   #container{
@@ -389,6 +445,19 @@ footer .links > a:hover{
 
   .tool{animation: fade ease infinite 8s;}
 
+  #contact-form{
+    width: 90vw;
+    padding: 15px;
+  }
+  #contact-form label{
+    text-align: left;
+  }
+  #contact-form input, #contact-form textarea{
+    width: 90vw;
+  }
+  #contact-form .form-button{
+    margin-right: -10px;
+  }
   footer{
     display: block;
     padding: 10px;
@@ -396,9 +465,9 @@ footer .links > a:hover{
     margin-top: 20px;
   }
   footer .about > p{
-  padding-top: 0;
-  margin-top: 15px;
-  font-size: 1.1em;
+    padding-top: 0;
+    margin-top: 15px;
+    font-size: 1.1em;
   }
   footer .links{
     margin: auto 30px;

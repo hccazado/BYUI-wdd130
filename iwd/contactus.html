@@ -19,8 +19,10 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <main>
-            <form action="index.html" method="get">
+        <main class="main-contact">
+            <div id="submitted">
+            </div>
+            <form class="box box-shadow" id="contact-form" action="index.html" method="get">
                 <ul>
                     <li>
                         <label for="name">Name:</label>
@@ -38,7 +40,11 @@
                         <label for="question">Question:</label>
                         <textarea id="question" name="u_question" placeholder="Let us know your question"></textarea>
                     </li>
+                    <li class="form-button">
+                        <button id="submit-button" type="submit">Submit Your Question</button>
+                    </li>
                 </ul>
+                
             </form>
         </main>
         <footer>
@@ -66,5 +72,6 @@
             </div>
         </footer>
     </div>
+    <script src="scripts/contact.js"></script>
 </body>
 </html>
