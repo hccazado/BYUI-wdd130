@@ -174,6 +174,7 @@ footer{
 
 footer .about >h4{
   font-size: 1.5em;
+  text-shadow: -7px -1px 19px #999;
 }
 
 footer .about >p{
@@ -348,17 +349,21 @@ footer .links > a:hover{
 #contact-form label{
   display: inline-block;
   font-size: 1.1em;
-  width: 85px;
+  margin-right: 5px;
   text-align: right;
+  width: 80px;
 } 
 #contact-form input, #contact-form textarea{
   width:300px;
+  font-family: sans-serif;
 }
 #contact-form input:focus, #contact-form textarea:focus{
   border:1px solid black;
 }
 #contact-form input{
-  font-size: 1.1em;
+  border:none;
+  border-bottom: 1px solid #999;
+  font-size: 1em;
   height: 1.5em;
 }
 #contact-form textarea{
@@ -451,36 +456,50 @@ footer .links > a:hover{
   #contact-form label{
     text-align: left;
     padding-bottom: 7px;
+    font-size: 1.1em;
   }
   #contact-form input, #contact-form textarea{
-    width: 90vw;
+    font-size: 1em;
+    margin-top: 5px;
+    width: 100%;
   }
   #contact-form .form-button{
     margin-right: -10px;
   }
+  #contact-form input{
+    border:none;
+    border-bottom: 1px solid #999;
+  }
+  #contact-form textarea{
+    height: 6em;
+    line-height: 1.1;
+  } 
   footer{
     display: flex;
     flex-direction: column;
     padding: 20px;
     height: 250px;
-    margin-top: 20px;
   }
   footer .about{
-    margin: 10px auto;
+    margin-top: 10px;
   }
   footer .about > p{
-    padding-top: 0;
-    margin-top: 15px;
     font-size: 1.1em;
+    padding-top: 15px;
+    text-align: center;
   }
-  footer .links{
-    margin: auto 30px;
+  footer .about > h4{
+    text-align: right;
+    text-shadow: -7px -1px 19px #999;
+    margin-right: 20px;
   }
-  footer .links a{
+  footer .links {
+    margin: 10px;
+  }
+  footer .links > a{
     text-decoration: underline;
   }
   footer .social-media{
-    text-align: center;
-    margin: 30px auto;
+    margin-top: 15px;
   }
 }
